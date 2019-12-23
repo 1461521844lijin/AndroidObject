@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="greenbase">#50d3c8</color>
+    <color name="greendark">#50d3c6</color>
+    <color name="greenbase1">#06c1ae</color>
+    <color name="green1">#9be6df</color>
+
+
+
+    <color name="text_color_primary">#212121</color>
+    <color name="text_color_secondary">#424242</color>
+    <color name="wordCardColor">#fafafa</color>
+    <color name="white">#ffffff</color>
+
+    <color name="text_color_primary_dark">#FAFAFA</color>
+    <color name="text_color_secondary_dark">#EEEEEE</color>
+    <color name="bar_black">#FF000000</color>
+    <color name="grey400">#BDBDBD</color>
+    <color name="grey600">#757575</color>
+    <color name="grey800">#424242</color>
+    <color name="grey900">#212121</color>
+
+    <color name="green">#99ff66</color>
+    <color name="red">#EE2C2C</color>
+    <color name="yellow">#EEE685</color>
+    <color name="blue">#00EEEE</color>
+    <color name="blue1">#00ABE4</color>
+</resources>

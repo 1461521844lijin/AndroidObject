@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_user_info"
+            android:icon="@drawable/ic_menu_user"
+            android:title="个人资料" />
+        <item
+            android:id="@+id/nav_hard_word_note"
+            android:icon="@drawable/ic_menu_wordnote"
+            android:title="生词本" />
+        <item
+            android:id="@+id/nav_rank_list"
+            android:icon="@drawable/ic_menu_list"
+            android:title="单词排行榜" />
+
+    </group>
+
+    <!--<item android:title="其他">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_shareall"-->
+                <!--android:title="分享" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_about"-->
+                <!--android:icon="@drawable/ic_menu_about"-->
+                <!--android:title="关于" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

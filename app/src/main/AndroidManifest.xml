@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.hades.yqword">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 添加如下权限，以便使用更多的第三方SDK和更精准的统计数据 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.ui.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.ui.activity.WordListActivity"
+            android:theme="@style/AppTheme.NormalActionBar" />
+        <activity android:name=".view.ui.activity.SearchWordActivity" />
+        <activity
+            android:name=".view.ui.activity.YouDaoWordActivity"
+            android:theme="@style/AppTheme.NormalActionBar" />
+        <activity
+            android:name=".view.ui.activity.WordDetailActivity"
+            android:theme="@style/AppTheme.NormalActionBar" />
+        <activity
+            android:name=".view.ui.activity.LearnWordActivity"
+            android:theme="@style/AppTheme.NormalActionBar" />
+        <activity
+            android:name=".view.ui.activity.WebViewActivity"
+            android:theme="@style/AppTheme.NormalActionBar" />
+        <activity
+            android:name=".view.ui.activity.LoginActivity"
+            android:theme="@style/AppTheme.NormalActionBar" />
+        <activity
+            android:name=".view.ui.activity.RegisterActivity"
+            android:theme="@style/AppTheme.NormalActionBar" />
+        <activity android:name=".view.ui.activity.UserDetailsActivity"
+            android:theme="@style/AppTheme.NormalActionBar"
+            />
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.hades.yqword.view.ui.activity.MainActivity">
+
+    <include layout="@layout/title_bar" />
+
+
+    <com.ycl.tabview.library.TabView
+        android:id="@+id/tabView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tab_textViewSelColor="@color/greenbase"
+        app:tab_textViewUnSelColor="@color/grey600"
+        app:imageViewTextViewMargin="2dip"
+        app:tab_imageViewHeight="30dip"
+        app:tab_imageViewWidth="30dip"
+        app:tab_tabViewHeight="52dip"
+        app:tab_textViewSize="14sp">
+    </com.ycl.tabview.library.TabView>
+
+
+</LinearLayout>
